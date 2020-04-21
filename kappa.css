@@ -1,0 +1,293 @@
+body {
+	background-color:white;
+	color:black;
+}
+
+header {
+	text-align:center;
+	color:red;
+	font-size:75px;
+	opacity: 10px;
+	font-style: italic;
+	margin: 50px;
+	outline: solid 10px;
+	letter-spacing: 5px;
+	border-style: dotted;
+	border-radius: 50px;
+	text-shadow: 3px 3px 1px black;
+	font-weight:bold;
+	padding: 20px;
+	line-height: 50px;
+}
+
+ol {
+	font-size: 20px;
+}
+
+a {
+	font-weight: bold;
+}
+
+yolo > p {
+	font-size: 15px;
+}
+
+#pudelko {
+    width:200px;
+    height:260px;
+    margin:0 auto;
+    perspective:300px;
+    -webkit-perspective:300px;
+  }
+
+#karta {
+    background-color: aqua;
+    position:relative;
+    width:100%;
+    height:100%;
+    text-align:center;
+    transition:1s;
+    -webkit-transition:1s;
+    transform-style:preserve-3d;
+    -webkit-transform-style:preserve-3d;
+  }
+
+#pudelko:hover > #karta {
+    transform:rotateY(180deg);
+    -webkit-transform:rotateY(180deg);
+  }
+
+
+  #przod1 {
+    position:absolute;
+    width:100%;
+    height:100%;
+    background:url(kappa1.jpg);
+    background-size:100%;
+    box-shadow:0 0 4px 2px rgb(55, 0, 255) inset;
+    backface-visibility:hidden;
+    -webkit-backface-visibility:hidden;
+  }
+
+#tyl1 {
+    position:absolute;
+    width:100%;
+    height:100%;
+    line-height:240px;
+    color:#FFF;
+    font-size:1.6em;
+    background-color:rgb(38, 0, 255);
+    box-shadow:0 0 4px 8px rgb(0, 204, 255) inset;
+    transform:rotateY(180deg);
+    -webkit-transform:rotateY(180deg);
+    backface-visibility:hidden;
+    -webkit-backface-visibility:hidden;
+  }
+
+  #przod2 {
+    position:absolute;
+    width:100%;
+    height:100%;
+    background:url(kappa2.jpg);
+    background-size:100%;
+    box-shadow:0 0 4px 2px rgb(55, 0, 255) inset;
+    backface-visibility:hidden;
+    -webkit-backface-visibility:hidden;
+  }
+
+#tyl2 {
+    position:absolute;
+    width:100%;
+    height:100%;
+    line-height:240px;
+    color:#FFF;
+    font-size:1.6em;
+    background-color:rgb(38, 0, 255);
+    box-shadow:0 0 4px 8px rgb(0, 204, 255) inset;
+    transform:rotateY(180deg);
+    -webkit-transform:rotateY(180deg);
+    backface-visibility:hidden;
+    -webkit-backface-visibility:hidden;
+  }
+
+  #przod3 {
+    position:absolute;
+    width:100%;
+    height:100%;
+    background:url(kappa3.jpg);
+    background-size:100%;
+    box-shadow:0 0 4px 2px rgb(55, 0, 255) inset;
+    backface-visibility:hidden;
+    -webkit-backface-visibility:hidden;
+  }
+
+#tyl3 {
+    position:absolute;
+    width:100%;
+    height:100%;
+    line-height:240px;
+    color:#FFF;
+    font-size:1.6em;
+    background-color:rgb(38, 0, 255);
+    box-shadow:0 0 4px 8px rgb(0, 204, 255) inset;
+    transform:rotateY(180deg);
+    -webkit-transform:rotateY(180deg);
+    backface-visibility:hidden;
+    -webkit-backface-visibility:hidden;
+  }
+
+  #przod4 {
+    position:absolute;
+    width:100%;
+    height:100%;
+    background:url(kappa4.jpg);
+    background-size:100%;
+    box-shadow:0 0 4px 2px rgb(55, 0, 255) inset;
+    backface-visibility:hidden;
+    -webkit-backface-visibility:hidden;
+  }
+
+#tyl4 {
+    position:absolute;
+    width:100%;
+    height:100%;
+    line-height:240px;
+    color:#FFF;
+    font-size:1.6em;
+    background-color: rgb(38, 0, 255);
+    box-shadow:0 0 4px 8px rgb(0,204,255) inset;
+    transform:rotateY(180deg);
+    -webkit-transform:rotateY(180deg);
+    backface-visibility:hidden;
+    -webkit-backface-visibility:hidden;
+  }
+
+  #przod5 {
+    position:absolute;
+    width:100%;
+    height:100%;
+    background:url(kappa5.jpg);
+    background-size:100%;
+    box-shadow:0 0 4px 2px rgb(55, 0, 255) inset;
+    backface-visibility:hidden;
+    -webkit-backface-visibility:hidden;
+  }
+
+#tyl5 {
+    position:absolute;
+    width:100%;
+    height:100%;
+    line-height:240px;
+    color:#FFF;
+    font-size:1.6em;
+    background-color:rgb(38, 0, 255);
+    box-shadow:0 0 4px 8px rgb(0, 204, 255) inset;
+    transform:rotateY(180deg);
+    -webkit-transform:rotateY(180deg);
+    backface-visibility:hidden;
+    -webkit-backface-visibility:hidden;
+  }
+
+  #przod6 {
+    position:absolute;
+    width:100%;
+    height:100%;
+    background:url(kappa6.jpg);
+    background-size:100%;
+    box-shadow:0 0 4px 2px rgb(55, 0, 255) inset;
+    backface-visibility:hidden;
+    -webkit-backface-visibility:hidden;
+  }
+
+#tyl6 {
+    position:absolute;
+    width:100%;
+    height:100%;
+    line-height:240px;
+    color:#FFF;
+    font-size:1.6em;
+    background-color: rgb(38, 0, 255);
+    box-shadow:0 0 4px 8px rgb(0, 204, 255) inset;
+    transform:rotateY(180deg);
+    -webkit-transform:rotateY(180deg);
+    backface-visibility:hidden;
+    -webkit-backface-visibility:hidden;
+  }
+
+  #przod7 {
+    position:absolute;
+    width:100%;
+    height:100%;
+    background:url(kappa7.jpg);
+    background-size:100%;
+    box-shadow:0 0 4px 2px rgb(55, 0, 255) inset;
+    backface-visibility:hidden;
+    -webkit-backface-visibility:hidden;
+  }
+
+#tyl7 {
+    position:absolute;
+    width:100%;
+    height:100%;
+    line-height:240px;
+    color:#FFF;
+    font-size:1.6em;
+    background-color: rgb(38, 0, 255);
+    box-shadow:0 0 4px 8px rgb(0, 204, 255) inset;
+    transform:rotateY(180deg);
+    -webkit-transform:rotateY(180deg);
+    backface-visibility:hidden;
+    -webkit-backface-visibility:hidden;
+  }
+
+  #przod8 {
+    position:absolute;
+    width:100%;
+    height:100%;
+    background:url(kappa8.jpg);
+    background-size:100%;
+    box-shadow:0 0 4px 2px rgb(55, 0, 255) inset;
+    backface-visibility:hidden;
+    -webkit-backface-visibility:hidden;
+  }
+
+#tyl8 {
+    position:absolute;
+    width:100%;
+    height:100%;
+    line-height:240px;
+    color:#FFF;
+    font-size:1.6em;
+    background-color: rgb(38, 0, 255);
+    box-shadow:0 0 4px 8px rgb(0, 204, 255) inset;
+    transform:rotateY(180deg);
+    -webkit-transform:rotateY(180deg);
+    backface-visibility:hidden;
+    -webkit-backface-visibility:hidden;
+  }
+
+  #przod9 {
+    position:absolute;
+    width:100%;
+    height:100%;
+    background:url(kappa9.jpg);
+    background-size:100%;
+    box-shadow:0 0 4px 2px rgb(55, 0, 255) inset;
+    backface-visibility:hidden;
+    -webkit-backface-visibility:hidden;
+  }
+
+#tyl9 {
+    position:absolute;
+    width:100%;
+    height:100%;
+    line-height:240px;
+    color:#FFF;
+    font-size:1.6em;
+    background-color: rgb(38, 0, 255);
+    box-shadow:0 0 4px 8px rgb(0, 204, 255) inset;
+    transform:rotateY(180deg);
+    -webkit-transform:rotateY(180deg);
+    backface-visibility:hidden;
+    -webkit-backface-visibility:hidden;
+  }
